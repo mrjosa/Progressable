@@ -234,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -454,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -473,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinmoizard.Progressable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -544,6 +545,7 @@
 				86EA19C91D9AA9A100C3CF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86EA19CA1D9AA9A100C3CF12 /* Build configuration list for PBXNativeTarget "ProgressableTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				86EA19CC1D9AA9A100C3CF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86EA19F81D9AAA1600C3CF12 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +563,7 @@
 				86EA19FA1D9AAA1600C3CF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

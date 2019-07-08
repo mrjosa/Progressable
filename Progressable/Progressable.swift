@@ -115,7 +115,7 @@ extension Progressable where Self: UIView {
         animation.fromValue = NSValue(cgRect: self.progressLayer.visibleBounds())
         animation.toValue = NSValue(cgRect: toBounds)
         animation.duration = duration
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         
         self.progress = progress
         progressLayer.frame = toFrame
